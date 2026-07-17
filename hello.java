@@ -1,24 +1,13 @@
-public class hello {
+public class hello{
+    public static void main(String[] args)
+    {
+        int n = 5;
+        int sum = 0;
 
-    public static void main(String[] args) {
-
-        int a = 5;
-        int b = 3;
-
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
-
-        System.out.println("\nBitwise AND (&)");
-        System.out.println("a & b = " + (a & b));
-
-        System.out.println("\nBitwise OR (|)");
-        System.out.println("a | b = " + (a | b));
-
-        System.out.println("\nBitwise XOR (^)");
-        System.out.println("a ^ b = " + (a ^ b));
-
-        System.out.println("\nBitwise Complement (~)");
-        System.out.println("~a = " + (~a));
-        System.out.println("~b = " + (~b));
+        for( int i = 0; i<n; i++ )
+        {
+            sum += i;
+        }
+        System.out.println("sum of the number" + sum);
     }
 }
