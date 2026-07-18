@@ -1,13 +1,24 @@
-public class hello{
+import java.util.Scanner;
+
+public class hello
+{
     public static void main(String[] args)
     {
-        int n = 5;
-        int sum = 0;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER ANY MULTI-DIGIT NUMBER HERE ");
+        long N = sc.nextInt();
 
-        for( int i = 0; i<n; i++ )
+        int count = 0;
+
+        while(0<N)
         {
-            sum += i;
+            N = N/10;
+            count++;
         }
-        System.out.println("sum of the number" + sum);
-    }
+        System.out.println("number of digit : " + count);
+        sc.close();
+
+    
+
+}
 }

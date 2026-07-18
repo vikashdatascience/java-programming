@@ -411,9 +411,46 @@ public class hello {
 
 --------------------------------------------------------------------------------------------
 
+public class hello{
+    public static void main(String[] args)
+    {
+        int n = 5;
+        int sum = 0;
 
+        for( int i = 0; i<n; i++ )
+        {
+            sum += i;
+        }
+        System.out.println("sum of the number" + sum);
+    }
+}
+--------------------------------------------------------------------------------------------------
 
+import java.util.Scanner;
 
+public class hello
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+
+        int i = 1;
+        int sum = 0;
+
+        while(i<=N)
+        {
+            sum += i;
+            i++;
+        }
+        System.out.println("SUM OF THE NUMBER IS " + sum);
+
+        sc.close();
+    }
+}
+
+----------------------------------------------------------------------------------------------------
 
 
 
