@@ -1,24 +1,16 @@
-import java.util.Scanner;
-
-public class hello
-{
+public class hello{
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("ENTER ANY MULTI-DIGIT NUMBER HERE ");
-        long N = sc.nextInt();
+        int[][] array = new int[5][5];
 
-        int count = 0;
-
-        while(0<N)
+        for(int i = 0; i<5; i++)
         {
-            N = N/10;
-            count++;
+            for(int j = 0; j<5; j++)
+            {
+                System.out.print(array[i][j]);
+
+            }
+            System.out.println();
         }
-        System.out.println("number of digit : " + count);
-        sc.close();
-
-    
-
 }
 }

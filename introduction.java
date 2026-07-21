@@ -453,13 +453,77 @@ public class hello
 ----------------------------------------------------------------------------------------------------
 
 
+public class hello{
+    public static void main(String[] args)
+    {
+        for(int i = 0; i<5; i++)
+        {
+            for(int j = 0; j<5; j++)
+            {
+                System.out.println(i+ " "+j);
+            }
+        }
+    }
+}
 
+----------------------------------------------------------------------------------------------------
 
+public class hello{
+    public static void main(String[] args)
+    {
+        int[] rollno = new int[10];
 
+        rollno[4] = 5;
+        rollno[1] = 1;
 
+        System.out.println(rollno[4]);
+        System.out.println(rollno[1]);
+    }
+}
+----------------------------------------------------------------------------------------------------
+public class hello{
+    public static void main(String[] args)
+    {
+        int[][] matrix = new int[5][5];
 
+        matrix[0][1] = 5;
+        matrix[0][2] = 4;
 
+        System.out.println(matrix[0][1]);
+}
+}
+----------------------------------------------------------------------------------------------------
 
+public class hello{
+    public static void main(String[] args)
+    {
+        int[] array = new int[5];
+
+        for(int i = 0; i<5; i++)
+        {
+            System.out.println(array[i]);
+        }
+}
+}
+----------------------------------------------------------------------------------------------------
+
+public class hello{
+    public static void main(String[] args)
+    {
+        int[][] array = new int[5][5];
+
+        for(int i = 0; i<5; i++)
+        {
+            for(int j = 0; j<5; j++)
+            {
+                System.out.print(array[i][j]);
+
+            }
+            System.out.println();
+        }
+}
+}
+----------------------------------------------------------------------------------------------------
 
 
 
