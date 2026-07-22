@@ -1,16 +1,19 @@
+import java.util.Scanner;
 public class hello{
     public static void main(String[] args)
     {
-        int[][] array = new int[5][5];
+        Scanner sc = new Scanner(System.in);
 
-        for(int i = 0; i<5; i++)
-        {
-            for(int j = 0; j<5; j++)
-            {
-                System.out.print(array[i][j]);
+        System.out.println("Enter the movie name");
 
-            }
-            System.out.println();
-        }
-}
+         char sentence = sc.next();
+
+         System.out.println(sentence);
+
+
+
+
+
+
+ }
 }
