@@ -675,8 +675,49 @@ public class hello {
         m.recommend(genre);
     }
 }
-----------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
+public class hello{
+    public static void main(String[] args)
+    {
+        sum();
+        System.out.println("sum");
+
+
+
+        public static void sum()
+        {
+            int a = 10;
+            int b = 20;
+            System.out.println("sum : " + (a+b));
+        }
+    }
+}
+
+-------------------------------------------------------------------------------------------------
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+import java.util.Scanner;
+
+public class solution{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        
+        int N = sc.nextInt();
+        
+        for(int i = 1; i<=10; i++)
+        {
+            System.out.println(N + " x " + i + " = " + (N*i));
+        }
+    }
+}
+-------------------------------------------------------------------------------------------------
 
 
 
